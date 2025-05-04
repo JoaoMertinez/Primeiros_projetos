@@ -1,0 +1,61 @@
+.titulo{
+    color: darkgreen;
+    background-color: lightgreen;
+}
+.fundo{
+    color: rgb(31, 61, 1);
+}
+.paragrafo{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-indent: 30px;    
+}
+
+p em{
+   font-family: 'Times New Roman', Times, serif;  
+}
+p.seo{
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+}
+*{
+    color: rgb(40, 80, 1);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.relevante{
+    text-decoration: underline;
+    color: cadetblue;
+    text-align: center;
+}
+.h4class{
+    font-variant: small-caps;
+    background-color: darkgreen;
+    color: cadetblue;
+    text-indent: 30px;
+    font-size: larger;
+}
+.final{
+    text-align: center;
+    color:cadetblue;
+    text-decoration: double;
+    text-shadow: 10px 10px 5px;
+
+}
+.email{
+    text-decoration: underline;
+    color:blue
+}
+.fonte{
+    font-size: small;
+
+}
+.direitos{
+    text-align: center;
+
+}
+.nome{
+    text-align: end;
+    font-family: 'Courier New', Courier, monospace;
+    color: cadetblue;
+    background-color: darkgreen;
+}

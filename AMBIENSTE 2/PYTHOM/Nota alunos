@@ -1,0 +1,115 @@
+def adAluno(alunos):
+    nome = input("Digite o nome do aluno: ")
+    notas = []
+    while True:
+        try:
+            nota = float(input("Digite a nota do aluno (ou < que 0 para parar): "))
+            if 0 <= nota <= 10:
+                notas.append(nota)
+            elif nota < 0:
+                break
+            else:
+                print("Nota INCORRETA!\nInsira uma nota entre 0 e 10!")
+        except ValueError:
+            print("Insira um número válido para a nota do aluno.")
+    alunos.append({'nome': nome, 'notas': notas})
+
+def autNotas(alunos):
+    nome = input("Digite o nome do aluno para atualizar as notas: ")
+    for aluno in alunos:
+        if aluno['nome'] == nome:
+            notas = []
+            while True:
+                try:
+                    nota = float(input("Digite a nova nota do aluno (ou < que 0 para parar): "))
+                    if 0 <= nota <= 10:
+                        notas.append(nota)
+                    elif nota < 0:
+                        break
+                    else:
+                        print("Nota INCORRETA!\nInsira uma nota entre 0 e 10!")
+                except ValueError:
+                    print("Insira um número válido para a nota do aluno.")
+            aluno['notas'] = notas
+            print("**Notas atualizadas**")
+            return
+    print("Aluno não encontrado")
+
+def calc_media(aluno):
+    notas = aluno['notas']
+    if notas:
+        # return len(notas) / sum(notas)
+        return sum(notas) / len(notas)
+    else:
+        return 0
+
+def l_alunos(alunos):
+    for aluno in alunos:
+        print(f"Nome: {aluno['nome']}, Notas: {aluno['notas']}, Média: {calc_media(aluno)}")
+
+def maior_media(alunos):
+    if not alunos:
+        print("Nao ha aluno cadastrado.")
+        return
+    aluno_maiorMedia = max(alunos, key=calc_media)
+    print(f"Aluno com maior média: {aluno_maiorMedia['nome']} - Média: {calc_media(aluno_maiorMedia)}")
+
+def menor_media(alunos):
+    if not alunos:
+        print("Nao ha aluno cadastrado.")
+        return
+    aluno_menor_media = min(alunos, key=calc_media)
+    print(f"Aluno com menor média: {aluno_menor_media['nome']} - Média: {calc_media(aluno_menor_media)}")
+
+def menu():
+    alunos = []
+    print("\n*** Escola ***")
+    print("[1] Cadastrar aluno")
+    print("[2] Auterar notas do aluno")
+    print("[3] Calcular média do aluno")
+    print("[4] Listar alunos")
+    print("[5] Encontrar aluno com maior média")
+    print("[6] Encontrar aluno com menor média")
+    print("[0] Sair\n")
+
+    resp = int(input("\nEscolha uma opção: "))
+
+    while resp > 0:  
+        print("\n")
+        if resp == 1:
+            adAluno(alunos)
+        elif resp == 2:
+            autNotas(alunos)
+        elif resp == 3:
+            nome = input("Digite o nome do aluno para calcular a média: ")
+            for aluno in alunos:
+                if aluno['nome'] == nome:
+                    print(f"Média do aluno {nome}: {calc_media(aluno)}")
+                    break
+            else:
+                print("Aluno não encontrado.")
+        elif resp == 4:
+            l_alunos(alunos)
+        elif resp == 5:
+            maior_media(alunos)
+        elif resp == 7:
+            menor_media(alunos)
+            break
+        else:
+            print("Opção invalida")
+
+
+        print("\n*** Escola ***")
+        print("[1] Cadastrar aluno")
+        print("[2] Auterar notas do aluno")
+        print("[3] Calcular média do aluno")
+        print("[4] Listar alunos")
+        print("[5] Encontrar aluno com maior média")
+        print("[6] Encontrar aluno com menor média")
+        print("[0] Sair\n")
+
+        resp = input("\nEscolha uma opção: ")
+    
+    if(resp==0):
+        print("Programa encerrado!")
+menu()

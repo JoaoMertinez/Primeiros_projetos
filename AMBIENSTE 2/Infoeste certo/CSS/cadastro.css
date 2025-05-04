@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans:ital@0;1&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body 
+{
+    font-family: 'Inclusive Sans', sans-serif;
+}
+.card
+{
+    background-color: #ffffff90;
+    border-radius: 2%;
+    border: 2px solid #1c0a50;
+    flex-direction: column;
+    height: 1750px;
+}
+
+.conteiner 
+{
+    display: flex;
+    justify-content: center;
+    width: 600px;
+    margin-top: 100px;
+    padding-left: 25%;
+    height: 600px;
+  
+}
+ 
+
+
+
+a {
+    background-color: #0100247c; 
+    color: #fff;
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    align-items: center;
+    text-decoration: none;
+    width: 100%;
+}
+
+
+.cont 
+{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.title
+{
+   text-align: center;
+   background-color: #01002476;
+}
+
+#title 
+{
+    padding: 10px 0px 0px 0px; 
+}
+.grupo 
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.label-float
+{
+   font-size: 15px;
+    padding: 10px;
+    text-align: center;
+
+
+
+}
+
+.radio-container label {
+    display: inline-block; /* Isso coloca os labels e botões na mesma linha */
+    margin-right: 10px; /* Espaçamento entre os botões (ajuste conforme necessário) */
+  }
+.input-label
+{
+    width: 250px;
+    height: 10px; 
+    padding: 10px; 
+    font-size: 15px;
+    background-color: #ffffff90; 
+
+}
+
+.alinhamento 
+{
+    display: inline-block; 
+    text-align: right;
+}
+
+.img_css
+{
+    display: flex;
+  justify-content: center; /* Centralizar horizontalmente */
+  align-items: center; /* Centralizar verticalmente */
+}
+
+
+/* CAMISAS*/
+.cardd
+{
+    background-color: #ffffff90;
+    border-radius: 2%;
+    border: 2px solid #1c0a50;
+    transform: translate(-50%, -50%);
+    flex-direction: column;
+}
+
+.botao:hover 
+{
+    background-color: #0056b3; 
+}
+
+.imagem {
+    position: relative; /* Necessário para posicionar a imagem de hover */
+    display: inline-block;
+}
+
+.imagem img {
+    max-width: 100%;
+    height: auto;
+    transition: opacity 0.3s; /* Efeito de transição suave */
+}
+
+/* Oculta a imagem de hover por padrão */
+.imagem-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0; /* Inicialmente, a imagem de hover está oculta */
+}
+
+/* Quando o mouse passa sobre a imagem base, mostra a imagem de hover */
+.imagem:hover .imagem-hover {
+    opacity: 1; /* Torna a imagem de hover visível no hover */
+} 
+
+/*CURSOS*/
+
+.checkbox-container
+{
+   padding: 0;
+}
+
+

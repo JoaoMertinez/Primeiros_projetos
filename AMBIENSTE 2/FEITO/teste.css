@@ -1,0 +1,13 @@
+.grade-botoes {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 colunas com largura igual */
+  grid-gap: 10px; /* Espaçamento entre os botões */
+}
+
+.botao{
+  padding: 10px 20px; /* Espaçamento interno do botão */
+  background-color: #007bff; /* Cor de fundo do botão */
+  color: #fff; /* Cor do texto do botão */
+  border: none; /* Remover a borda do botão */
+  cursor: pointer; /* Mostrar um cursor de ponteiro ao passar o mouse */
+}

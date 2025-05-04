@@ -1,0 +1,155 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins" , sans-serif;
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+}
+
+
+body{
+    overflow: hidden;
+}
+
+.background{
+    background: linear-gradient(rgba(0, 0, 1, 15), rgba(0, 0, 0, 0.5)),url(IMAGENS/colorido.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+   
+}
+
+
+header{
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+    padding-top: 1rem; 
+}
+.cabeçalho-link{
+    display: flex;
+    gap: 3rem;
+    font-weight: 300;
+    cursor: pointer;    
+}
+.cabeçalho-link a{
+    color: #ffffff;
+    font-size: 12px;
+    transition: transform 0.3s;
+    text-align: left;
+}
+.cabeçalho-link a:hover{
+    
+    color:  #2ecc71;
+    transition: 0.3s all;
+    transform: scale(1.2);
+}
+
+
+.logo i{
+    height: 40px;
+    width: 40px;
+    background: transparent;
+    border: 1px solid #2ecc71;
+    color: #2ecc71;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 5px
+}
+
+.logo i :hover{
+
+    background-color: #2ecc71;
+    color: #ffffff;
+    transition: 0.5s;
+}
+
+
+
+button{
+    color: #2ecc71;
+    background: transparent;
+    border:solid 1px #2ecc71;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 12px;
+    cursor: pointer;
+    width: 150px;
+    transition: 0.5s;
+    
+}
+button:hover{
+    background-color: #2ecc71;
+    color: #ffffff;
+    transition: 0.5s;
+}
+
+
+
+.container-text{
+    padding: 150px 0 0 30px;
+}
+.text h3{
+    color: #ffffff;
+    font-size: 15px;
+}
+.text h1{
+    color: #fff;
+    margin-top: 50px;
+}
+.text span{
+    color: #2ecc71; 
+    transition: 0.5s;
+
+}
+.text span:hover{
+    transition: 0.5s;
+    color: darkgreen;
+    font-size: 40px;
+    cursor: pointer;
+}
+.text p{
+    color: #fff;
+    font-weight: 500;
+    margin-top: 10px;
+    font-size: 10px;
+}
+
+
+
+.sobre{
+    color: #fff;
+    font-size:large;
+    padding-top: 50px;
+    
+}
+.sobre h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+.redes-social{
+    margin-top: 50px;
+}
+.redes-social a{
+    color: #2ecc71;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+
+
+.btn{
+    margin-top: 15px;
+}

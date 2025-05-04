@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@300;700;900&display=swap");
+
+body {
+  font-family: "Exo 2", sans-serif;
+  background: rgba(0, 255, 200, 0.541);
+  background: linear-gradient(
+    242deg,
+    rgb(128, 184, 179) 0%,
+    rgb(3, 133, 122) 100%
+  );
+}
+
+.principal {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 4rem);
+  
+}
+
+.title-wrapper {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  transform: skew(0, -10deg);
+}
+
+.titulo {
+  order: 1;
+  text-align: center;
+  display: block;
+  color: #fff;
+  font-size: clamp(1rem, 5vw, 2.5rem);
+  margin-bottom: -30px;
+  padding-right: 2rem;
+  font-weight: bold;
+}
+
+.data {
+  order: 3;
+  text-align: center;
+  display: block;
+  color: #000000;
+  font-size: clamp(1rem, 5vw, 1.5rem);
+  margin-top: -40px;
+  padding-left: 2rem;
+  font-weight: bold;
+}
+
+.sweet-title {
+  order: 2;
+  color: #fde9ff;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 90px;
+  line-height: 0.75em;
+  text-align: center;
+  text-shadow: 3px 1px 1px #000000, 2px 2px 1px #9e9e9e, 4px 2px 1px #000000,
+  3px 3px 1px #9e9e9e, 5px 3px 1px #000000, 4px 4px 1px #9e9e9e,
+  6px 4px 1px #000000, 5px 5px 1px #9e9e9e, 7px 5px 1px #000000,
+  6px 6px 1px #9e9e9e, 8px 6px 1px #000000, 7px 7px 1px #9e9e9e,
+  9px 7px 1px #000000;
+  span {
+    display: block;
+    position: relative;
+
+    &:before {
+      content: attr(data-text);
+      position: absolute;
+      text-shadow: 2px 2px 1px #4ae97a, -1px -1px 1px #c736f9,
+        -2px 2px 1px #e94aa1, 1px -1px 1px #f736f9;
+      z-index: 1;
+    }
+
+    &:nth-child(1) {
+      padding-right: 2.25rem;
+    }
+
+    &:nth-child(2) {
+      padding-left: 2.25rem;
+    }
+  }
+}
+
+.informaçoes{
+    order: 3;
+    display: block;
+    color: #fff;
+    font-size: clamp(1rem, 5vw, 1.5rem);
+    margin-top: 10px;
+    padding-left: 2rem;
+}
+.uno{
+    order: 3;
+    display: block;
+    color: #fff;
+    font-size: clamp(1rem, 5vw, 1.5rem);
+    margin-top: 10px;
+    list-style: none;
+}
+
+.disclaimer {
+  width: 100%;
+  height: 2rem;
+  text-align: center;
+  color: #fff;
+
+  a {
+    color: #fff;
+  }
+}
+
+/* Estilo para a imagem */
+.unoeste {
+    max-width: 100%; /* Garante que a imagem não exceda a largura do contêiner */
+    max-height: 100%; /* Garante que a imagem não exceda a altura do contêiner */
+    position: absolute; /* Define a posição absoluta para a imagem dentro do contêiner */
+    top: 180px; /* Distância do topo do contêiner */
+    left: 400px; /* Distância da esquerda do contêiner */
+}
+.fipp{
+    max-width: 100%; /* Garante que a imagem não exceda a largura do contêiner */
+    max-height: 100%; /* Garante que a imagem não exceda a altura do contêiner */
+    position: absolute; /* Define a posição absoluta para a imagem dentro do contêiner */
+    top: 350px; /* Distância do topo do contêiner */
+    left: 400px;
+    width: 210px;
+    height: 10px;
+}

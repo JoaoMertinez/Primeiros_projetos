@@ -1,0 +1,98 @@
+.img{
+      text-align: left;
+      background-color:rgb(71, 69, 69);
+      width:1350px;
+}
+.nome{
+      font-size: 40px;
+      text-align: center;
+      color: white;
+      background-color:rgb(71, 69, 69);
+      border-top:3px solid green ;
+      border-bottom:3px solid green ;
+      border-left:3px solid green ;
+      border-right:3px solid green;
+      color: rgb(114, 255, 114);
+      height: 50%;
+      width:1350px; 
+      margin: 0 auto;
+      
+}
+
+.nome:hover { color:rgb(88, 243, 140); }
+
+
+
+.intro{
+      width: 100%;
+      width:1350px;
+      color:white;
+}
+
+.lista{ margin: 0 auto;
+        text-align: left;
+        font-size: 20px;
+        float: left;
+        width: 50%;
+        
+      }
+
+.lista2{
+       margin: 0 auto;
+       text-align: left;
+       font-size: 20px;
+       float: left;
+       width: 50%;
+    
+      
+      }
+
+.h1 {
+      margin:0 auto;
+      font-size: 40px;
+    
+      
+    }
+
+.menu{
+      
+      margin:0 auto;
+      font-size: 40px;
+      color: black;
+      text-align: center;
+      display: block;
+      width: 100vw;
+      height: 100vh;
+      background-position: 30% 45%;
+      -webkit-background-size: contain;
+      -moz-background-size: contain;
+      background-size: contain;
+      -o-background-size: contain;
+      float: left;
+      width:1350px;
+      }
+
+.rodape{
+      font-size: 40px;
+      text-align: center;
+      color: white;
+      background-color:rgb(71, 69, 69);
+      border-top:3px solid green ;
+      border-bottom:3px solid green ;
+      border-left:3px solid green ;
+      border-right:3px solid green;
+      color: rgb(114, 255, 114);
+      height: 50%;
+      width:1350px; 
+      margin: 0 auto;
+}
+
+.Voltar{
+      width: 70px;
+      position:fixed;
+      text-align: right;
+      top:85%;
+      right: 0;
+      height: 20px;
+}
+

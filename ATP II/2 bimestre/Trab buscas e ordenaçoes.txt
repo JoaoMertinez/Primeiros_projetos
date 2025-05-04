@@ -1,0 +1,22 @@
+Buscas presentes no codigo
+ 
+busca do codigo do produto = 
+busca do codigo do fornecedor = 
+busca o cpf = 
+busca o codigo do fornecedor no arquivo de produto = 
+busca venda =
+
+Tipos de buscas necessarias
+– Busca Exaustiva;
+– Busca Exaustiva com Sentinela.
+– Busca Sequencial Indexada;
+– Busca Binária.
+
+Ordenaçoes necessarias
+codigo da venda no arquivo de venda
+*mais duas necessaria
+
+Tipos de ordenacao necessaria
+inserção Direta (Insertion Sort); =
+Ordenação por Bolhas (Bubble Sort); =
+Seleção Direta (Selection Sort) =

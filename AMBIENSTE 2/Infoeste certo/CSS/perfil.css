@@ -1,0 +1,374 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+     font-family: 'Poppins', sans-serif;
+}
+
+body 
+{
+    background-color: black;
+    height: 100hv;
+}
+.interface
+{
+    max-width: 1280px;
+    margin: 0 auto;
+
+}
+
+#interface2 
+{
+    padding: 50px 25%;
+}
+
+header
+{
+    padding: 50px 25%;
+}
+
+header > .interface
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+header a 
+{
+    color: #760592;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+header a:hover 
+{
+ color: white;
+ transform: scale(1.05);
+}
+
+header nav ul 
+{
+    list-style-type: none;
+}
+
+header nav ul li 
+{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.txt-topo-site h1
+{
+    color: #760592;
+    font-size: 30px;
+}
+
+.topo-do-site
+{
+  padding: 10px 4%;
+}
+
+.flex
+{
+    display: flex;
+}
+
+section.topo-do-site.flex
+{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.topo-do-site .txt-topo-site p 
+{
+    color: #760592;
+    margin: 40px 0;
+    line-height: 19px;
+}
+
+.topo-do-site .img-topo-site img
+{
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+
+}
+
+
+@keyframes flutuar 
+{
+    0%
+    {
+        top: 0;
+    }
+    100%
+    {
+        top: 30px;
+    }
+
+}
+
+
+section .escolar 
+{
+    padding: 40px 10%;
+}
+
+section.escolar .flex
+{
+  gap: 60px;
+}
+
+
+h2.titulo 
+{
+    color: #760592;
+    text-align: center;
+    font-size: 39px;
+
+
+}
+#titulo3 
+{
+    color: #760592;
+}
+
+#titulo4 
+{
+    color: #760592;
+}
+
+
+.escolar .escolaridade-box 
+{
+    padding: 40px 4%;
+    border: 2px solid #760592;
+    margin-top: 45px;
+    border-radius: 20px;
+    transition: 2s;
+    margin: 40px 50px;
+}
+
+.escolar .escolaridade-box i
+{
+  font-size: 50px;
+  color: #760592;
+  
+}
+
+.escolar .escolaridade-box h3
+{
+    font-size: 20px;
+    margin: 15px;
+}
+
+
+
+.escolar .escolaridade-box:hover 
+{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px white;
+}
+
+section.sobre 
+{
+    padding: 90px 4%;
+}
+.sobre .txt-sobre 
+{
+    color: #760592;
+}
+
+section.sobre .flex
+{
+    align-items: center;
+    gap: 60px;
+}
+
+.sobre .txt-sobre h2 
+{
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 40px;
+
+}
+
+.sobre .txt-sobre h2 span 
+{
+    color: white;
+    display: block;
+}
+
+.portifolio .titulo span 
+{
+    color: white; 
+}
+
+.contato .titulo span 
+{
+    color: white; 
+}
+
+.sobre .txt-sobre p 
+{
+ margin: 20px 0;
+ text-align: justify;
+}
+
+.sobre .txt-sobre .btn-social button
+{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    background-color: #760592;
+    font-size: 22px;
+    cursor: pointer;
+    margin: 0 5px;
+    transition: .2s;
+}
+
+.sobre .txt-sobre .btn-social button:hover
+{
+ box-shadow: 0px 0px 8px black;
+ transform: scale(1.05);
+}
+
+
+
+.sobre .txt-sobre .btn-contato button
+{
+    border-radius: 20px;
+    border: none;
+    background-color: #760592;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 0 5px;
+    transition: .2s;
+}
+
+.sobre .txt-sobre .btn-contato button:hover
+{
+ box-shadow: 0px 0px 8px black;
+ transform: scale(1.05);
+}
+
+section.portifolio
+{
+    padding: 80px 4%;
+    box-shadow: 0 0 40px 10px black;
+}
+
+section.portifolio .flex
+{
+  justify-content: space-around;
+  margin-top: 60px;
+}
+
+.img-port 
+{
+    width: 360px;
+    height: 460px;
+    background-size: cover;
+    background-position: 100% 0%;
+    transition: .8s;
+    cursor: pointer;
+    border-radius: 40px;
+    position: relative;
+}
+
+.img-port:hover 
+{
+    background-position: 100% 100%;
+}
+
+.over 
+{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    border-radius: 40px;
+    background-color: rgba(255, 255, 255, 0.304);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 600;
+    color: #760592;
+    opacity: 0;
+    transition: .5s;
+}
+
+.over:hover 
+{
+    opacity: 1;
+}
+
+section .formulario 
+{
+    padding: 80px 4%;
+
+}
+
+form 
+{
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 40px;
+
+}
+form input, form textarea
+{
+    width: 100%;
+    background-color: #a6a3a34b;
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 15px;
+    color: white;
+    font-size: 18px;
+}
+form textarea 
+{
+    resize: none;
+    max-height: 200px;
+}
+
+form .btn-enviar 
+{
+    margin-top: 20px;
+    text-align: center;
+
+}
+
+form .btn-enviar input
+{
+    width: 120px;
+    background-color: #760592;
+    color: white;
+    font-weight: 700px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+form .btn-enviar input:hover
+{
+    box-shadow: 0px 0px 0px white;
+    transform: scale(1.05);
+}
+
+.desc 
+{
+    color: #760592;
+}

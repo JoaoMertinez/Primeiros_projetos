@@ -1,0 +1,53 @@
+.plano{background-size: cover;
+margin: 0 auto;}
+
+p{color: aqua;
+font-family: Arial, Helvetica, sans-serif;
+font-size: xx-large;
+margin-left: 140px;
+margin-top: 10px;
+text-shadow: 1px -2px 3px;}
+
+.centro{margin-left: 570px;
+}
+
+.p1{color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin-left: 530px;
+    text-shadow: 0px 0px 0px;}
+
+.p2{color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin-left: 570px;
+    text-shadow: 0px 0px 0px;}
+
+.p3{color: orange;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        margin-top: 20px;
+        font-size: 18px;
+        text-shadow: 0px 0px 0px;
+    margin-left: 25px;
+margin-right: 25px;}
+
+.p4{color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+    text-shadow: 0px 0px 0px;
+margin-left: 25px;
+margin-right: 25px;}
+
+.em{font-size: 22px;}
+.insta{margin-right: 10px;
+margin-left: 20px;}
+.linkedin{margin-right: 20px;}
+.face{margin-right: 22px;}
+.unoeste{margin-left: 35px;}
+
+.container{display: flex;}
+
+

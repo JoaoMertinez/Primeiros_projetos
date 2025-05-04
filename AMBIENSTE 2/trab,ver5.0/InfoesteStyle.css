@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins" , sans-serif;
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    height: 70px;
+    background-color: #003710;
+    align-items: center;
+    text-align: center;
+    position:fixed;
+    width: 100%; 
+}
+footer{
+    display: flex;
+    max-width: 100%;
+    height: 220px;
+    background-color: #003710;
+    align-items: center;
+    text-align: center; 
+
+}
+
+.cabeçalho-link{
+    display: flex;
+    gap: 3rem;
+    font-weight: 300;
+    cursor: pointer;    
+}
+.cabeçalho-link a{
+    color: white;
+    font-size: 15px;
+    transition: transform 0.3s;
+}
+.cabeçalho-link a:hover{
+    
+    color:  white;
+    transition: 0.3s all;
+    transform: scale(1.2);
+}
+
+.logo i{
+    height: 40px;
+    width: 40px;
+    background: transparent;
+    border: 3px solid white;
+    color: white;
+    border-radius: 10px;;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+
+.fundo{
+    background: linear-gradient(rgba(0, 0, 1, 15), rgba(0, 0, 0, 0.7)),url(imagenstr/Infoeste.binario.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 110vh;
+   
+}
+
+h1{
+    color: white;
+}
+h1 span{
+    font-family:Arial, sans-serif;
+    color: black;
+
+}
+.texto{
+    color: #003710;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.lista li{
+    padding: 10px;
+    list-style:disc;
+    text-align: left;
+}
+
+.info{
+    margin-top: -300px;
+    margin-left: 650px;
+}
+
+.paragrafo{
+    text-align: left;
+    text-indent: 20px;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.eventos{
+    display: flex; 
+    margin-right: 10px;
+    padding: 50px;
+}
+.fotos{
+    display: flex; 
+    margin-right: 10px;
+    padding: 50px;
+}
+div.polaroid {
+    width: 15%;
+    background-color: #8acf7c;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.795), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.5s;
+    display:inline;
+    color: black;
+}
+div.polaroid :hover{
+    cursor: pointer;
+    transition: 0.5s;
+    overflow: hidden;
+    scale: 1.1;
+
+}
+div.container {
+    text-align: center;
+    padding: 6px 10px;
+}
+
+
+.titulos{
+    color: white; 
+}
+
+.fundoPort{
+    background: linear-gradient(rgba(0, 0, 1, 15), rgba(10, 10, 10, 0.5)),url(imagenstr/Fundo.Portifolios.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 95vh;
+    padding-top: 50px;
+}
+.fundoPort span{
+    background: linear-gradient(rgba(0, 0, 1, 15), rgba(10, 10, 10, 0.5)),url(imagenstr/Fundo.Portifolios.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 140vh;
+    padding-top: 70px;
+}
+
+.botao{
+    margin: 20px; /* Ajuste a distância conforme necessário */
+    padding: 5px 10px;
+    font-size: 16px;
+    background-color: #003710;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.alinhar{width:80%;margin:0 auto;
+}
+table, th, td {
+    border: 1px solid;
+}
+
+h5{
+    color: #fff;
+}

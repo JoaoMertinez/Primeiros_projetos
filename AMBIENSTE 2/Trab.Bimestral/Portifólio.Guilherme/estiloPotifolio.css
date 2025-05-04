@@ -1,0 +1,76 @@
+/*Formatção geral do site*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins, sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+/*Fundo do portifolio*/
+.fundo{
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 1, 20), rgba(0, 0, 0, 0.5)),url(Programação1.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+   
+}
+
+/*Formatação geral do botão*/
+button{
+    color: #c72e2e;
+    padding: 8px;
+    font-size: 15px;
+    cursor: pointer;
+    width: 150px;
+    border:solid 2px #c72e2e;
+    background: transparent;
+    border-radius: 10px;
+}
+
+/*Formatação do botão para quando passar o cursor*/
+button:hover{
+    background-color: #c72e2e;
+    color: #fff;
+    transition: 0s;
+}
+
+/*centralizando*/
+.container{
+    padding: 150px 0 0 0px;
+}
+
+
+h1{
+    color: #c72e2e; 
+}
+
+/*Formatação para os textos*/
+.texto p{
+    text-align: center;
+    color: #fff;
+    font-weight: 500;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+/*Cor e espaçamento dos botões de rede socias*/
+.perfis a{
+    color: #c72e2e;
+    padding: 10px;
+    margin-top: 20px;
+    line-height: 3;
+}
+
+/*Arredondando borda da foto*/
+img{
+    border-radius: 300px;
+}
+
+/*Margem de espaçamento do sobre mim*/
+.borda{
+    padding: 40px 0 0 0px;
+}

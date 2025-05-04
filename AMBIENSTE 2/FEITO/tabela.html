@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="autor" content="joao claudio martinez">
+    <title>TABELA EXEMPLO</title>
+
+   <style type="text/css">
+        .alinhar{
+            width:200px;
+            margin:0 auto;
+        }
+        .borda td,th{
+                border-top:3px solid #10047d;
+                border-bottom:3px solid #10047d ;
+                border-left:3px solid #10047d;
+                border-right:3px solid #10047d;
+                background-color: #64b6ed;
+                border-radius:7px;
+                box-shadow:3px 3px 3px rgb(144, 146, 238);
+                
+            }
+        .comprimento{
+            width: 400px;
+            text-align: center;
+        }
+        /*pesquisei sobre o degrade porque estava com curiosidade*/
+        .fundo{background-image: linear-gradient(to right, rgb(0, 4, 255) , rgb(0, 255, 85));}
+        .fonte{font-family: 'Times New Roman', Times, serif;}
+        .caption{font-style: italic;
+        font-family: Georgia, 'Times New Roman', Times, serif;}
+        .texto{font-family: 'Courier New', Courier, monospace;}
+            
+    </style>
+
+    
+    
+</head>
+<body class="fundo">
+<div class="texto">
+    <ul>
+        <lu>***Lista***</lu>
+            <ol>
+                <li>w3c</li>
+                <li>html</li>
+                <li>css</li>
+                    <ul class="format1">
+                        <li>Formatação</li>
+                        <li>Imagens</li>
+                        <li>Bordas</li>
+                        <li>Links</li>
+                    </ul>
+                <li>Web Semântica</li>
+                <li>UX Design</li>
+                <li>Web Acessível</li>
+            </ol>
+    </ul>
+</div>
+<br>
+    <table class="alinhar borda comprimento">
+        <tr>
+            <th> Faculdade de Informática de Presidente Prudente - FIPP 🐺🐺🐺 </th>
+        </tr>
+    </table>
+    <br>
+  
+    <table class="alinhar borda comprimento">
+        <caption class="caption">Nuvem de Palavras</caption>
+        <tr> 
+           <td>Atitude</td>
+           <td colspan="2">Colaboração</td>
+           <td rowspan="2">estudo</td>
+           <tr>
+                <td>Humildade</td>
+                <td>Dedicação</td>
+                <td>Motivação</td>
+           </tr>
+    
+        </tr>
+    </table>   
+    <table class="alinhar borda comprimento">
+        <tr >
+            <td colspan="4">Responsabilidade</td>
+            <tr>
+                <td colspan="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FIPP</td>
+                <td colspan="2">UNOESTE</td>
+            </tr>
+        </tr>
+    </table>     
+
+    <br>
+
+    <table class="alinhar borda comprimento">
+        <tr>
+            <td style="font-family: Arial;"><strong>JOAO CLAUDIO MARTINEZ</strong></td>
+            <td style="font-family: Arial;"><strong>262319640</strong></td>
+        </tr>
+    </table>
+   
+</body>
+</html>

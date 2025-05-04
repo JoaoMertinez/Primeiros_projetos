@@ -1,0 +1,177 @@
+body {
+    /*font-family: Arial, sans-serif;*/
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+
+header {
+    color: #fff;
+    font-family: Georgia;
+    background-color: rgb(3, 54, 68);
+    display: flex;
+    justify-content: space-between;
+    justify-content: left;
+    /*text-align: center;*/
+    padding: 20px;
+    
+}
+
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 26px;
+}
+
+h1 {
+    color: #f3f0f0;
+    margin-bottom: 20px;
+   
+}
+
+p {
+    margin: 20px 0;
+    line-height: 1.5;
+}
+
+.image-container {
+    text-align: center;
+    margin-top: 30px;
+}
+
+img {
+    max-width: 40%;
+    height: auto;
+}
+
+.footer {
+    background-color: rgb(3, 54, 68); /* Cor de fundo desejada para o rodapé */
+    color: #fff; /* Cor do texto */
+    text-align: center; /* Centraliza o texto horizontalmente */
+    padding: 20px; /* Espaçamento interno para o conteúdo */
+    text-align: 80%;
+    
+    bottom: 100%;
+    
+   /* width: 80%;
+    height: 100%;
+    margin-left: 100%; 
+    position: relative;
+   /* margin-right: 100%;
+    /*position: relative;*/
+   /* bottom: 0;
+   /* left: 0;*/
+}
+    
+
+
+.image-con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px; /* Altura desejada para a div interna */
+}
+
+.image-con img {
+    max-width: 100%; /* Ajusta o tamanho máximo da imagem */
+    max-height: 100%; /* Ajusta a altura máxima da imagem */
+}
+/* Estilize o contêiner (box) */
+.box {
+    margin-bottom: 20px;
+    border: 3px solid #5d85c2; /* Borda sólida ao redor do contêiner */
+    padding: 18px; /* Espaçamento interno */
+    width: 80%; /* Largura do contêiner */
+    margin: 0 auto; /* Centralizar horizontalmente */
+    background-color: #f9f9f9; /* Cor de fundo do contêiner */
+}
+a {
+    color: rgb(0, 0, 0); 
+    text-decoration: none; /* Remove o sublinhado padrão do link (se desejar) */
+}
+
+a:hover {
+    text-decoration: underline; 
+}
+/* Estilize a tabela */
+.tabela-atividades {
+    margin-bottom: 20px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Estilize as células de cabeçalho */
+.tabela-atividades th {
+    margin-bottom: 20px;
+    background-color: #f2f2f2; /* Cor de fundo das células de cabeçalho */
+    text-align: left;
+    padding: 10px;
+    border-bottom: 1px solid #ddd; /* Borda inferior das células de cabeçalho */
+}
+
+/* Estilize as células de dados */
+.tabela-atividades td {
+    margin-bottom: 20px;
+    text-align: left;
+    padding: 10px;
+    border-bottom: 1px solid #ddd; /* Borda inferior das células de dados */
+}
+
+/* Estilize a primeira linha (cabeçalho) em negrito */
+.tabela-atividades tr:first-child {
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Estilize as linhas ímpares com uma cor de fundo alternativa (opcional) */
+.tabela-atividades tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+/* Estilize as células de data com largura fixa (opcional) */
+.tabela-atividades td:first-child {
+    width: 100px;
+}
+
+th {
+    background-color: #5d85c2; /* Cor de fundo das células de cabeçalho */
+    text-align: left;
+    padding: 10px;
+    border-bottom: 1px solid #aacaf0; /* Borda inferior das células de cabeçalho */
+}
+
+/* Estilize as células de dados */
+td {
+    text-align: left;
+    padding: 10px;
+    border-bottom: 1px solid #aacaf0; /* Borda inferior das células de dados */
+}
+tr:nth-child(odd) {
+    background-color: #b8cdfa;
+}
+
+.Topo{
+    position:fixed;
+    text-align: right;
+    top:85%;
+    right: 0;
+    font-size: 40px;
+}
+
+.Voltar{
+    position:fixed;
+    text-align: left;
+    top:85%;
+    left: 0;
+    font-size: 40px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans:ital@0;1&display=swap');
+
+*{font-family:  'Inclusive Sans', sans-serif;}

@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans:ital@0;1&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body 
+{
+    background: url(/Fotos/fundoo.png);
+    font-family: 'Inclusive Sans', sans-serif;
+}
+
+.card
+{
+    background-color: #ffffff90;
+    border-radius: 2%;
+    border: 2px solid #1c0a50;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    flex-direction: column;
+}
+
+#center
+{
+    text-align: center;
+}
+
+.checkbox-container
+{
+   padding: 0;
+}
+
+a {
+    background-color: #0100247c; 
+    color: #fff;
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    align-items: center;
+    text-decoration: none;
+    width: 100%;
+}
+
+
+.botao:hover 
+{
+    background-color: #0056b3; 
+}
+
+.cont 
+{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.label-float
+{
+   font-size: 15px;
+    padding: 10px;
+    text-align: center;
+
+
+
+}

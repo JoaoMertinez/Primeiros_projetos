@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="InfoesteStyle.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <title>35ª Infoeste</title>
+    </head>
+
+    <body>
+        <header>
+            <a href="portifolios.html">
+                <div class="logo">
+                    <i class="fa-regular fa-u"></i>
+                 </div>
+            </a>
+            
+
+            <div class="cabeçalho-link">
+                <li>
+                    <a href="Infoeste.html">Home</a>
+                </li>
+
+                <li>
+                    <a href="#">Contatos</a>
+                </li>
+
+                <li>
+                    <a href="REGISTRO.HTML">Registros</a>
+                </li>
+
+                <li>
+                    <a href="#">Sobre</a>
+                </li>
+
+                <li>
+                    <a href="#">Eventos</a>
+                </li>
+
+                <li>
+                    <a href="portifolios.html">Portifolios</a>
+                </li>
+
+                <li>
+                    <a href="Certificados.html">Certificado</a>
+                </li>
+            </div>
+        </header>    
+        <br><br><br><br>
+        <div>
+            <h1 class="texto">REGISTRO</h1>
+        <form name="FCadCli" action="pagina.jsp" method="post">
+            <label for="tnome">Nome:</label>
+            <input type="text" name="tnome" size="40" maxlength="30" placeholder="Digite seu nome" autofocus="true" required="required"/>
+            <br/><br/>
+            <label for="tsenha">Senha:</label>
+            <input type="password" name="tsenha" size="30" maxlength="8" placeholder="Digite números e letras"/>
+            <br/><br/>
+            <label for="temai">Email:</label>
+            <input type="email" name="temai" size="40" maxlength="30" placeholder="Digite seu email" autofocus="true" required="required">
+            <br>
+            <br/>
+            <label for="top">Quer receber infomações dos cursos?</label><br/>
+            <input type="radio" name="op" value="1"/>Sim<br/>
+            <input type="radio" name="op" value="2"/>Não<br/>
+            <br/>
+            <label for="tarq">Carregue sua foto</label>
+            <input type="file" name="tarq"/>
+            <br/><br/>
+            <label for="scid">Cidade:</label>
+            <!--size="3" multiple="multiple"-->
+            <select name="scid">
+                <option value="1">Presidente Prudente</option>
+                <option value="2">Araçatuba</option>
+                <option value="3">Bauru</option>
+                <option value="4">São José do Rio Preto</option>
+                <option value="5">Assis</option>
+                <option value="6">Marília</option>
+                <option value="7">Ourinhos</option>
+                <option value="8">Birigui</option>
+                <option value="9">Tupã</option>
+                <option value="10">Lins</option>
+                <option value="11">Jaú</option>
+                <option value="12">Dracena</option>
+                <option value="13">Adamantina</option>
+                <option value="14">Penápolis</option>
+                <option value="15">Barretos</option>
+                <option value="16">Votuporanga</option>
+                <option value="17">Ilha Solteira</option>
+                <option value="18">Fernandópolis</option>
+                <option value="19">Mirandópolis</option>
+                <option value="20">Presidente Venceslau</option>
+            </select>
+            <br/><br/>
+            <label for="tcom">Comentários:</label><br/>
+            <textarea rows="5" cols="30"></textarea>
+            <br/>
+            <input class="btnreg"  type="button" name="bmensagem" value="Gravar" onclick="alert('Gravado com sucesso!')"/>
+            <input class="btnreg"  type="reset" name="blimpar" value="Limpar"/>
+        </form>
+        </div>
+        <br> <br> <br> <br>
+     
+        <footer class="rodape">
+            <img src="imagenstr/LogoUnoeste.png" alt="unoeste" width="10%">
+        </footer>
+
+    </body>
+</html>
