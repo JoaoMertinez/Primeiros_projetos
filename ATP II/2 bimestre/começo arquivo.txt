@@ -1,0 +1,40 @@
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include <conio2.h>
+#include <ctype.h>
+#define TF 5
+
+/*"r". Abrir um arquivo texto para leitura. O arquivo deve estar presente no disco
+
+"w" Abrir um arquivo texto para gravação. Se o arquivo estiver presente ele será destruído 
+e reinicializado. Se não existir, ele será criado.
+
+"a" Abrir um arquivo texto para inclusão (acréscimo de informações). Os dados serão 
+adicionados ao fim do arquivo existente, ou um novo arquivo será criado.
+
+"r+" Abrir um arquivo texto para leitura e gravação. O arquivo deve existir e pode ser 
+atualizado.
+
+"w+" Abrir um arquivo texto para leitura e gravação. Se o arquivo existir ele será destruído 
+e reinicializado. Se não existir, será criado.
+
+"a+" Abrir um arquivo texto para leitura e para adicionar dados ao fim do arquivo existente. 
+Caso não exista, um novo arquivo será criado.
+
+"rb" Abrir um arquivo binário para leitura. O arquivo deve estar presente no disco.
+
+"wb" Abrir um arquivo binário para gravação. Se o arquivo estiver presente ele será 
+destruído e reinicializado. Se não existir, ele será criado.
+
+"ab" Abrir um arquivo binário para inclusão. Os dados serão adicionados ao fim do arquivo 
+existente, ou um novo arquivo será criado. Não permite leitura dos dados.
+
+"rb+" Abrir um arquivo binário para leitura e gravação. O arquivo deve existir e pode ser 
+atualizado.
+
+"wb+" Abrir um arquivo binário para leitura e gravação. Se o arquivo existir ele será 
+destruído e reinicializado. Se não existir, será criado.
+
+"ab+" Abrir um arquivo binário para atualizações e para adicionar dados ao fim do arquivo 
+existente ou um novo arquivo será criado. Possibilita a leitura dos dados existentes.*/
